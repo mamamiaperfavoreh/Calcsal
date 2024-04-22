@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+<title>Salary Calculator</title>
+<link rel="cssmaincalc" href="cssmaincalc.css">
+</head>
+<body>
+<div class="container">
+  <h1>Salary Calculator</h1>
+  <div class="input-container">
+    <label for="dayShifts">Number of Day Shifts:</label>
+    <input type="number" id="dayShifts">
+  </div>
+  <div class="input-container">
+    <label for="dopDayShifts">Number of Dop Day Shifts:</label>
+    <input type="number" id="dopDayShifts">
+  </div>
+  <div class="input-container">
+    <label for="nightShifts">Number of Night Shifts:</label>
+    <input type="number" id="nightShifts">
+  </div>
+  <div class="input-container">
+    <label for="dopNightShifts">Number of Dop Night Shifts:</label>
+    <input type="number" id="dopNightShifts">
+  </div>
+  <div class="input-container">
+    <label for="fine" style="color: red;">Fines:</label>
+    <input type="number" id="fine">
+  </div>
+  <div class="input-container">
+    <label for="bonus" style="color: green;">Bonuses:</label>
+    <input type="number" id="bonus">
+  </div>
+  <div class="input-container">
+    <button id="submit">Submit</button>
+    <button id="clear" class="clear-btn">Clear</button>
+    <p style="color: red; font-weight: bold;">Note: Eestashi ha hoghugheshun sabete</p>
+  </div>
+  <div id="result"></div>
+</div>
+<script src="jsmaincalc.js"></script>
+</body>
+</html>
