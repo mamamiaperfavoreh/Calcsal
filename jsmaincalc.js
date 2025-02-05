@@ -6,7 +6,7 @@ document.getElementById('submit').addEventListener('click', function() {
     const fine = parseFloat(document.getElementById('fine').value) || 0;
     const bonus = parseFloat(document.getElementById('bonus').value) || 0;
 
-    const salary = (dayShifts * 137.28 + dopDayShifts * 171.60 + nightShifts * 157.20 + dopNightShifts * 196.50 - fine + bonus).toFixed(2);
+    const salary = (dayShifts * 165 + dopDayShifts * 206.25 + nightShifts * 190 + dopNightShifts * 237.50 - fine + bonus).toFixed(2);
 
     document.getElementById('result').innerHTML = `<h2>Your Calculated Salary: ${salary} BYN</h2>`;
 });
